@@ -29,5 +29,5 @@ The Tracer does not handle compressed responses (yet), so the ACCEPT-ENCODING
 header sent to the actual server is changed to identity. If you want to log and
 proxy the HTTP status message, you'll have to use node 11.
 
-**IMPORTANT** The request headers shown are those actually sent to the handling
+**IMPORTANT:** The request headers shown are those actually sent to the handling
 server.
